@@ -23,7 +23,8 @@ int main() {
     minimum = (*num1 < *num2) ? *num1 : *num2; 
     printf("%d\n", minimum); 
     free(num1); 
-    free(num2); 
+    free(num2);
+}
 ```
 
 ## Output:
