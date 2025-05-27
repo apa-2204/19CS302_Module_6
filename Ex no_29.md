@@ -15,7 +15,8 @@ To write a C program to create two float variables using calloc() and find minim
 ```
 #include <stdio.h> 
 #include <stdlib.h> 
-int main() { 
+int main()
+{ 
     int *num1, *num2, minimum; 
     num1 = (int *)calloc(1, sizeof(int)); 
     num2 = (int *)calloc(1, sizeof(int)); 
@@ -25,6 +26,7 @@ int main() {
     free(num1); 
     free(num2);
 }
+
 ```
 
 ## Output:
